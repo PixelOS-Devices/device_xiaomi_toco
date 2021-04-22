@@ -15,7 +15,6 @@ $(call inherit-product, device/xiaomi/toco/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # PixelOS Stuff
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_FACE_UNLOCK_SUPPORTED := true

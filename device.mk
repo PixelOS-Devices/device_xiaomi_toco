@@ -82,6 +82,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Vendor service manager
+PRODUCT_PACKAGES += \
+    vndservicemanager
+
 # WiFi
 PRODUCT_PACKAGES += \
     TocoWifiOverlay

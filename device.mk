@@ -148,6 +148,10 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0 \
     android.hardware.sensors@2.1
 
+# Shim
+PRODUCT_PACKAGES += \
+    libpiex_shim
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)

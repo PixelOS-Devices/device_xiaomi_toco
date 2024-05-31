@@ -196,7 +196,6 @@ vendor/etc/camera/hdr_ui9_params.config
 -vendor/lib64/camera/components/com.altek.node.distortioncorrection.so
 
 # Camera ArcSoft
--system/lib64/libarcsoft_single_chart_calibration.so
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/body_slim_ui9_params.config
 vendor/etc/camera/eyelineblush.cng
@@ -253,8 +252,6 @@ vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
 -vendor/lib64/libwebrtc_audio_preprocessing.so
 
 # Camera Xiaomi
--system/lib64/libcamera_algoup_jni.xiaomi.so
--system/lib64/libcamera_mianode_jni.xiaomi.so
 vendor/etc/camera/lf_facerank_model.bin
 vendor/etc/camera/mibokeh_712_opencl.bin
 vendor/etc/camera/mibokeh_712_parameter.bin

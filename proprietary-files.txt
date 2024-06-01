@@ -301,6 +301,7 @@ vendor/firmware/ipa_fws.mdt
 # NFC
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
+vendor/etc/libnfc-nxp_RF.conf
 -vendor/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
 
 # Sensors

@@ -144,7 +144,7 @@ vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 -vendor/lib64/hw/camera.qcom.so
--vendor/lib64/hw/com.qti.chi.override.so
+-vendor/lib64/hw/com.qti.chi.override.so;DISABLE_CHECKELF
 -vendor/lib64/lib_denoiser3.so
 -vendor/lib64/libcamera_nn_stub.so
 -vendor/lib64/libcamxfdalgov7.so
@@ -174,11 +174,11 @@ vendor/etc/camera/almalence_sr_params_wide.config
 -vendor/lib64/libHalSuperSensorServer.so
 -vendor/lib64/libSuperSensor.so
 -vendor/lib64/libSuperSensorCPU.so
--vendor/lib64/libalAILDC.so
+-vendor/lib64/libalAILDC.so;DISABLE_CHECKELF
 -vendor/lib64/libalCFR.so
--vendor/lib64/libalLDC.so
+-vendor/lib64/libalLDC.so;DISABLE_CHECKELF
 -vendor/lib64/libalRnBRT_GL_GBWRAPPER.so
--vendor/lib64/libalhLDC.so
+-vendor/lib64/libalhLDC.so;DISABLE_CHECKELF
 
 # Camera Altek
 vendor/etc/camera/CFR_para_HD.bin
@@ -226,7 +226,7 @@ vendor/etc/camera/golden_rear_dc_cal_wt.bin
 -vendor/lib64/libarcsoft_portrait_lighting_c.so
 -vendor/lib64/libarcsoft_preview_deflicker.so
 -vendor/lib64/libarcsoft_supernight.so
--vendor/lib64/libhvx_interface.so
+-vendor/lib64/libhvx_interface.so;DISABLE_CHECKELF
 -vendor/lib64/liblearningmodule.so
 -vendor/lib64/libmpbase.so;MODULE=libmpbase_vendor
 -vendor/lib64/libtriplecam_video_optical_zoom.so
@@ -243,7 +243,7 @@ vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
 -vendor/lib64/camera/components/com.visidon.node.clearshot.so
 -vendor/lib64/camera/components/com.visidon.node.sr.so
 -vendor/lib64/libVDClearShot.so
--vendor/lib64/libVDSuperPhotoAPI.so
+-vendor/lib64/libVDSuperPhotoAPI.so;DISABLE_CHECKELF
 
 # Camera Vidhance
 -vendor/lib64/camera/components/com.vidhance.node.eis.so

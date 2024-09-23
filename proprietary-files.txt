@@ -235,8 +235,8 @@ vendor/etc/camera/golden_rear_dc_cal_wt.bin
 
 # Camera face detection
 vendor/etc/camera/megviifacepp_0_5_2_model:vendor/etc/camera/facedetectpp_0_5_2_model
--vendor/lib64/libMegviiFacepp-0.5.2.so:vendor/lib64/libFaceDetectpp-0.5.2.so
--vendor/lib64/libmegface.so:vendor/lib64/libfacedet.so
+-vendor/lib64/libMegviiFacepp-0.5.2.so:vendor/lib64/libFaceDetectpp-0.5.2.so;FIX_SONAME
+-vendor/lib64/libmegface.so:vendor/lib64/libfacedet.so;FIX_SONAME
 
 # Camera Visidon
 vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
@@ -274,7 +274,7 @@ vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 -vendor/lib64/liboemcrypto.so
 
 # Fingerprint
--vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.sm6150.so
+-vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.sm6150.so;FIX_SONAME
 -vendor/lib64/libgf_hal.so
 
 # Graphics firmware

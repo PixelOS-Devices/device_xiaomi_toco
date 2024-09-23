@@ -226,7 +226,7 @@ vendor/lib64/libarcsoft_preview_deflicker.so
 vendor/lib64/libarcsoft_supernight.so
 vendor/lib64/libhvx_interface.so;DISABLE_CHECKELF
 vendor/lib64/liblearningmodule.so
-vendor/lib64/libmpbase.so;MODULE=libmpbase_vendor
+vendor/lib64/libmpbase.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/libxml2_vendor.so

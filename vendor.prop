@@ -7,6 +7,10 @@ ro.vendor.audio.us.type=mius
 vendor.audio.feature.compr_voip.enable=false
 vendor.voice.path.for.pcm.voip=false
 
+# Fingerprint
+persist.vendor.fingerprint.type=udfps_optical
+persist.vendor.fingerprint.sensor_location=540|1810|95
+
 # HVDCP
 persist.vendor.cp.fcc_main_ua=400000
 persist.vendor.cp.qc3p5_vfloat_offset_uv=110000

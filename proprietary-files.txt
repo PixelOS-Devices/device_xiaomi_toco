@@ -198,7 +198,6 @@ vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/body_slim_ui9_params.config
 vendor/etc/camera/eyelineblush.cng
 vendor/etc/camera/golden_rear_dc_cal_wt.bin
-vendor/lib64/camera/components/com.almalence.node.sr.so
 vendor/lib64/camera/components/com.arcsoft.node.bodyslim.so
 vendor/lib64/camera/components/com.arcsoft.node.capturebokeh.so
 vendor/lib64/camera/components/com.arcsoft.node.capturefusion.so
@@ -236,7 +235,7 @@ vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/libxml2_vendor.so
 
 # Camera face detection
-vendor/etc/camera/megviifacepp_0_5_2_model:vendor/etc/camera/facedetectpp_0_5_2_model
+vendor/etc/camera/megviifacepp_0_5_2_model
 vendor/lib64/libMegviiFacepp-0.5.2.so:vendor/lib64/libFaceDetectpp-0.5.2.so;FIX_SONAME
 vendor/lib64/libmegface.so:vendor/lib64/libfacedet.so;FIX_SONAME
 

@@ -38,10 +38,20 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libmegface.so', 'libfacedet.so'),
     'vendor/lib64/camera/components/com.qti.node.watermark.so': blob_fixup()
         .add_needed('libpiex_shim.so'),
+    ('vendor/lib64/libalAILDC.so', 'vendor/lib64/libalLDC.so', 'vendor/lib64/libalhLDC.so'): blob_fixup()
+        .clear_symbol_version('AHardwareBuffer_allocate')
+        .clear_symbol_version('AHardwareBuffer_describe')
+        .clear_symbol_version('AHardwareBuffer_lock')
+        .clear_symbol_version('AHardwareBuffer_release')
+        .clear_symbol_version('AHardwareBuffer_unlock'),
     'vendor/lib64/libalRnBRT_GL_GBWRAPPER.so': blob_fixup()
         .add_needed('libui_shim.so'),
     'vendor/lib64/libFaceDetectpp-0.5.2.so': blob_fixup()
         .replace_needed('libmegface.so', 'libfacedet.so'),
+    ('vendor/lib64/libhvx_interface.so', 'vendor/lib64/libVDSuperPhotoAPI.so'): blob_fixup()
+        .clear_symbol_version('remote_handle_close')
+        .clear_symbol_version('remote_handle_invoke')
+        .clear_symbol_version('remote_handle_open')
 }  # fmt: skip
 
 module = ExtractUtilsModule(
